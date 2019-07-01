@@ -118,8 +118,8 @@ echo sleep 5 >> .zshrc
 echo tor --HTTPTunnelPort 8118 >> .zshrc
 ‎‏echo tor >> .zshrc
 figlet -f big DONE
-echo “set socks5 proxy in telegram \e[7m127.0.0.1:9050”
-echo “set http proxy in twitter \e[7m127.0.0.1:8118”
-echo “type \e[7mzsh then close termux and run again”
+echo “set socks5 proxy in telegram 127.0.0.1:9050”
+echo “set http proxy in twitter 127.0.0.1:8118”
+echo “type zsh then close termux and run again”
 sleep 3
 chsh
