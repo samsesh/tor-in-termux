@@ -1,14 +1,27 @@
 #!/bin/bash
+#Colors
+white="\033[1;37m"
+grey="\033[0;37m"
+purple="\033[0;35m"
+red="\033[1;31m"
+green="\033[1;32m"
+yellow="\033[1;33m"
+Purple="\033[0;35m"
+Cyan="\033[0;36m"
+Cafe="\033[0;33m"
+Fiuscha="\033[0;35m"
+blue="\033[1;34m"
+nc="\e[0m"
 clear
-echo “install proxy for telegram in termux”
+echo -e “$green install proxy for telegram in termux”
 sleep 4
-echo “add proxy socks5”
+echo -e “$red add proxy socks5”
 sleep 5
 echo “address : 127.0.0.1”
 sleep 3 
 echo “port : 9050”
 sleep 5
-echo “then wait to installing... ”
+echo -e “$yellow then wait to installing... ”
 sleep 6
 clear
 echo “Installing ...”
@@ -118,8 +131,8 @@ echo sleep 5 >> .zshrc
 echo tor --HTTPTunnelPort 8118 >> .zshrc
 ‎‏echo tor >> .zshrc
 figlet -f big DONE
-echo “set socks5 proxy in telegram 127.0.0.1:9050”
-echo “set http proxy in twitter 127.0.0.1:8118”
-echo “type zsh then close termux and run again”
+echo -e “$blue set socks5 proxy in telegram 127.0.0.1:9050”
+echo -e “$green set http proxy in twitter 127.0.0.1:8118”
+echo -e “$red type zsh then close termux and run again”
 sleep 3
 chsh
