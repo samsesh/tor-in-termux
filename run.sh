@@ -85,11 +85,12 @@ sleep 3
 ##echo “type ‘zsh’ then press enter”
 ##chsh
 cd ~
+echo clear >> .zshrc
 echo figlet -f big WELCOME >> .zshrc
 echo echo “set socks5 proxy in telegram 127.0.0.1:9050”
 echo echo “set http proxy in twitter 127.0.0.1:8118”
 echo sleep 5 >> .zshrc
-echo figlet -f standard code by init__0 >> .zshrc
+echo echo code by init__0 >> .zshrc
 echo sleep 4 >> .zshrc
 echo figlet -f digital wait to run >> .zshrc
 echo sleep 5 >> .zshrc
