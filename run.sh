@@ -13,75 +13,75 @@ Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
 clear
-echo -e “$green install proxy for telegram in termux”
+echo -e "$green install proxy for telegram & twitter in termux"
 sleep 4
-echo -e “$red add proxy socks5”
+echo -e "$red add proxy socks5"
 sleep 5
-echo “address : 127.0.0.1”
+echo "address : 127.0.0.1"
 sleep 3 
-echo “port : 9050”
+echo "port : 9050"
 sleep 5
-echo -e “$yellow then wait to installing... ”
+echo -e "$yellow then wait to installing... "
 sleep 6
 clear
-echo “Installing ...”
+echo "Installing ..."
 sleep 1
 clear
-echo “iNstalling ...”
+echo "iNstalling ..."
 sleep 1
 clear 
-echo “inStalling ...”
+echo "inStalling ..."
 sleep 1
 clear
-echo “insTalling ...”
+echo "insTalling ..."
 sleep 1
 clear
-echo “instAlling ...”
+echo "instAlling ..."
 sleep 1
 clear
-echo “instaLling ...”
+echo "instaLling ..."
 sleep 1
 clear
-echo “instalLing ...”
+echo "instalLing ..."
 sleep 1
 clear
-echo “installIng ...”
+echo "installIng ..."
 sleep 1
 clear
-echo “installiNg ...”
+echo "installiNg ..."
 sleep 1
 clear
-echo “installinG ...”
+echo "installinG ..."
 sleep 1
 clear
-echo “Installing ...”
+echo "Installing ..."
 sleep 1
 clear
-echo “iNstalling ...”
+echo "iNstalling ..."
 sleep 1
 clear 
-echo “inStalling ...”
+echo "inStalling ..."
 sleep 1
 clear
-echo “insTalling ...”
+echo "insTalling ..."
 sleep 1
 clear
-echo “instAlling ...”
+echo "instAlling ..."
 sleep 1
 clear
-echo “instaLling ...”
+echo "instaLling ..."
 sleep 1
 clear
-echo “instalLing ...”
+echo "instalLing ..."
 sleep 1
 clear
-echo “installIng ...”
+echo "installIng ..."
 sleep 1
 clear
-echo “installiNg ...”
+echo "installiNg ..."
 sleep 1
 clear
-echo “installinG ...”
+echo "installinG ..."
 sleep 1
 clear
 apt update
@@ -90,7 +90,8 @@ apt install figlet
 figlet -f banner wait
 sleep 3
 figlet -f digital start
-echo “installing....”
+echo "installing...."
+sleep 2
 apt install tor zsh wget git -y
 figlet wait 
 sleep 3
@@ -100,8 +101,8 @@ sleep 3
 cd ~
 echo clear >> .zshrc
 echo figlet -f big WELCOME >> .zshrc
-echo echo “set socks5 proxy in telegram 127.0.0.1:9050”
-echo echo “set http proxy in twitter 127.0.0.1:8118”
+echo echo "set socks5 proxy in telegram 127.0.0.1:9050"
+echo echo "set http proxy in twitter 127.0.0.1:8118"
 echo sleep 5 >> .zshrc
 echo echo code by init__0 >> .zshrc
 echo sleep 4 >> .zshrc
@@ -131,8 +132,8 @@ echo sleep 5 >> .zshrc
 echo tor --HTTPTunnelPort 8118 >> .zshrc
 ‎‏echo tor >> .zshrc
 figlet -f big DONE
-echo -e “$blue set socks5 proxy in telegram 127.0.0.1:9050”
-echo -e “$green set http proxy in twitter 127.0.0.1:8118”
-echo -e “$red type zsh then close termux and run again”
+echo -e "$blue set socks5 proxy in telegram 127.0.0.1:9050"
+echo -e "$green set http proxy in twitter 127.0.0.1:8118"
+echo -e "$red type zsh then close termux and run again"
 sleep 3
 chsh
