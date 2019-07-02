@@ -133,7 +133,7 @@ echo clear >> .zshrc
 echo figlet -f big run TOR >> .zshrc
 echo sleep 5 >> .zshrc
 echo tor --HTTPTunnelPort 8118 >> .zshrc
-‎‏echo exit >> .zshrc
+‎‏echo "exit" >> .zshrc
 clear
 figlet -f big DONE
 echo -e "$blue set socks5 proxy in telegram 127.0.0.1:9050"
