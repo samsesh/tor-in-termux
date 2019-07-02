@@ -101,8 +101,9 @@ sleep 3
 cd ~
 echo clear >> .zshrc
 echo figlet -f big WELCOME >> .zshrc
-echo echo "set socks5 proxy in telegram 127.0.0.1:9050"
-echo echo "set http proxy in twitter 127.0.0.1:8118"
+echo echo "set socks5 proxy in telegram 127.0.0.1:9050" >> .zshrc
+echo sleep 3 >> .zshrc
+echo echo "set http proxy in twitter 127.0.0.1:8118" >> .zshrc
 echo sleep 5 >> .zshrc
 echo echo code by init__0 >> .zshrc
 echo sleep 4 >> .zshrc
