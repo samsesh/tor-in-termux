@@ -10,3 +10,16 @@ copy code and paste in termux:
 ```bash
 apt update && apt install git -y && cd ~ && git clone https://github.com/samsesh/tor-in-termux.git && bash ~/tor-in-termux/run.sh
 ```
+# Proxy
+address:
+```
+127.0.0.1
+```
+socks5 port :
+```
+9050
+```
+http port :
+```
+8118
+```
