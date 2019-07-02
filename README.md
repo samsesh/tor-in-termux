@@ -2,7 +2,7 @@
 ~ proxy for telegram and twitter~
 {socks5 and http}
  # Download
-download termux : https://play.google.com/store/apps/details?id=com.termux&hl=en
+download termux : https://play.google.com/store/apps/details?id=com.termux
 then wait to installing termux 
 # install
 copy code and paste in termux:
