@@ -93,7 +93,7 @@ sleep 3
 figlet -f digital start
 echo "installing...."
 sleep 2
-apt install tor zsh wget git -y
+apt install tor privoxy zsh wget git -y
 clear
 figlet wait 
 sleep 3
@@ -106,6 +106,7 @@ echo figlet -f big WELCOME >> .zshrc
 echo echo "set socks5 proxy in telegram 127.0.0.1:9050" >> .zshrc
 echo sleep 3 >> .zshrc
 echo echo "set http proxy in twitter 127.0.0.1:8118" >> .zshrc
+echo echo "if not connect to tor set username and password = 1" >> .zshrc
 echo sleep 5 >> .zshrc
 echo echo code by init__0 >> .zshrc
 echo sleep 4 >> .zshrc
