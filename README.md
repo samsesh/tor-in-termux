@@ -23,3 +23,8 @@ http port :
 ```
 8118
 ```
+# if not connection 
+set username and password:
+```
+1
+```
