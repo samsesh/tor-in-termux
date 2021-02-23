@@ -1,7 +1,11 @@
 # tor-in-termux
 ~ proxy for telegram and twitter~
 {socks5 and http}
- # Download
+### Donate
+- If this project very help you to penetration testing  and u want support me , you can give me a cup of coffee :)
+- [![Donation](https://img.shields.io/badge/BITCOIN-donate-yellow.svg)](bitcoin:BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP) : ```BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP```
+
+# Download
 download termux : https://play.google.com/store/apps/details?id=com.termux
 then wait to installing termux 
 # install
