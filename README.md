@@ -3,7 +3,9 @@
 {socks5 and http}
 ### Donate
 - If this project very help you to penetration testing  and u want support me , you can give me a cup of coffee :)
-- [![Donation](https://img.shields.io/badge/BITCOIN-donate-yellow.svg)](bitcoin:BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP) : ```BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP```
+-  [![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/19KHPduHx2C8WAeq13b4xTsGocqq2PM5mN)](https://en.cryptobadges.io/donate/19KHPduHx2C8WAeq13b4xTsGocqq2PM5mN) : 
+ ```19KHPduHx2C8WAeq13b4xTsGocqq2PM5mN```
+- [donate page](https://github.com/samsesh/donate)
 
 # Download
 download termux : https://play.google.com/store/apps/details?id=com.termux
