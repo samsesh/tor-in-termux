@@ -97,9 +97,9 @@ apt install tor privoxy zsh wget git -y
 clear
 figlet wait 
 sleep 3
-##sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ##echo “type ‘zsh’ then press enter”
-##chsh
+chsh -s zsh
 cd ~
 echo clear >> .zshrc
 echo figlet -f big WELCOME >> .zshrc
